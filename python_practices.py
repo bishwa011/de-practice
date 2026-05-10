@@ -33,7 +33,7 @@
 #     print(f"{num} is zero")
 
 
-year = int(input("Enter the year"))
+# year = int(input("Enter the year"))
 
 # if year % 4 == 0:
 #     if year % 100 == 0:
@@ -46,11 +46,103 @@ year = int(input("Enter the year"))
 # else:
 #     print (f"Year {year} is NOT aLeap year")
 
-if year % 400 == 0:
-    print (f"Year {year} is Leap year")
-elif year % 100 == 0:
-    print (f"Year {year} is NOT a Leap year")
-elif year % 4 == 0:
-    print (f"Year {year} is Leap year")
-else: 
-    print (f"Year {year} is NOT a Leap year")
+# if year % 400 == 0:
+#     print (f"Year {year} is Leap year")
+# elif year % 100 == 0:
+#     print (f"Year {year} is NOT a Leap year")
+# elif year % 4 == 0:
+#     print (f"Year {year} is Leap year")
+# else: 
+#     print (f"Year {year} is NOT a Leap year")
+
+
+# a = int (input("Enter num 1"))
+# b = int (input("Enter num 2"))
+# c = int (input("Enter num 3"))
+
+
+# if a > b:
+#     if a > c:
+#         print(f"{a} is greatest") 
+#     else:
+#         print(f"{c} is greatest")
+# else:
+#     if b > c:
+#         print(f"{b} is greatest")
+#     else:
+#         print(f"{c} is greatest")
+
+
+# num = int(input("Enter maximum number "))
+# a=1
+# while (a<=num):
+#     print (f"{a}\n")
+#     a+=1
+
+# for i in range (1,100):
+#     print (i)
+
+
+# odd / even
+# for i in range (1,100,2): // (2,100,2)
+#     print (i)
+
+#Even/odd numbers print only
+# for i in range (1,100): 
+#     if i%2==0: #i%2!=0
+#         print (i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
