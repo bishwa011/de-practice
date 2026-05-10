@@ -23,11 +23,34 @@
 # F = (C * 9/5) +32
 # print(f"Thats {F} Farenheit ")
 
-num = int(input("Enter any number \n"))
+# num = int(input("Enter any number \n"))
 
-if (num > 0):
-    print (f"{num} is positive")
-elif (num < 0):
-    print (f"{num} is negative")
-else:
-    print(f"{num} is zero")
+# if (num > 0):
+#     print (f"{num} is positive")
+# elif (num < 0):
+#     print (f"{num} is negative")
+# else:
+#     print(f"{num} is zero")
+
+
+year = int(input("Enter the year"))
+
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print (f"Year {year} is Leap year")
+#         else:
+#             print (f"Year {year} is NOT a Leap year")
+#     else:
+#         print (f"Year {year} is Leap year")
+# else:
+#     print (f"Year {year} is NOT aLeap year")
+
+if year % 400 == 0:
+    print (f"Year {year} is Leap year")
+elif year % 100 == 0:
+    print (f"Year {year} is NOT a Leap year")
+elif year % 4 == 0:
+    print (f"Year {year} is Leap year")
+else: 
+    print (f"Year {year} is NOT a Leap year")
