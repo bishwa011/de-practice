@@ -107,8 +107,16 @@
 #     print (f"{n} * {i} = {n*i}\n")
 
 
+# str = input("Enter a string")
+# # print(str[::-1]) // approach 1 (easiest)
 
+# # for i in range (0, len(str)):
+# #     print (f"{str[len(str)-i-1]}") //Prints vertically
 
+# rev_str = ""
+
+# for i in range (len(str)-1,-1,-1):
+#     rev_str+= str[i]
 
 
 
