@@ -1,3 +1,4 @@
+#BASICS
 # name = input("What is your name?")
 # age = input("What is your age?")
 # print (f"Hello {name}, Your are {age} years old")
@@ -18,8 +19,15 @@
 # print (f"Reminder = {rem}\n")
 
 
-C = int (input("What is the temperature today in Celsius today?"))
+# C = int (input("What is the temperature today in Celsius today?"))
+# F = (C * 9/5) +32
+# print(f"Thats {F} Farenheit ")
 
-F = (C * 9/5) +32
+num = int(input("Enter any number \n"))
 
-print(f"Thats {F} Farenheit ")
+if (num > 0):
+    print (f"{num} is positive")
+elif (num < 0):
+    print (f"{num} is negative")
+else:
+    print(f"{num} is zero")
