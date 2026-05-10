@@ -119,9 +119,15 @@
 #     rev_str+= str[i]
 
 
+#COUNT VOWELS
 
+text = input("Enter the text")
+count = 0
 
-
+for char in text:
+    if text[i] in 'aeiouAEIOU' :
+        count += 1
+print(f"Total vowels in {text} = {count}")
 
 
 
