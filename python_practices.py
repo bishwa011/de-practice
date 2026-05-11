@@ -121,13 +121,46 @@
 
 #COUNT VOWELS
 
-text = input("Enter the text")
-count = 0
+# text = input("Enter the text")
+# count = 0
 
-for char in text:
-    if text[i] in 'aeiouAEIOU' :
-        count += 1
-print(f"Total vowels in {text} = {count}")
+# for char in text:
+#     if text[i] in 'aeiouAEIOU' :
+#         count += 1
+# print(f"Total vowels in {text} = {count}")
+
+# text = input("Enter text")
+# text= text.split()
+
+# for word in text:
+#     print(word)
+
+# text = input("Enter text")
+# rev_text = text[::-1]
+
+# if text == rev_text:
+#     print(f"{text} is Palindrome")
+# else:
+#     print(f"{text} is not Palindrome")
+
+# A = [10,20,30,40,50]
+# sum = 0
+# for i in A:
+#     sum+=i
+# print(f"Sum = {sum}")
+# print("Average =", sum/len(A))
+
+A = []
+for i in range (0,5):
+    x = int(input("Enter the number"))
+    A.append(x)
+
+print(A[::-1])
+
+
+
+
+
 
 
 
