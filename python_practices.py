@@ -150,29 +150,111 @@
 # print(f"Sum = {sum}")
 # print("Average =", sum/len(A))
 
-A = []
-for i in range (0,5):
-    x = int(input("Enter the number"))
-    A.append(x)
+# A = []
+# for i in range (0,5):
+#     x = int(input("Enter the number"))
+#     A.append(x)
 
-print(A[::-1])
-
-
+# print(A[::-1])
 
 
+# list_A = [1,2,2,3,4,4,5]
+# list_B = []
+
+# for item in list_A:
+#     if item not in list_B:
+#         list_B.append(item)
+
+# print(list_B)
+
+# original = [10,5,20,8,15]
+# largest = original[0]
+# slargest = original[1]
+
+# if largest < slargest:
+#     largest, slargest = slargest, largest
+
+# for item in original:
+#     if item > largest:
+#         slargest = largest
+#         largest =item
+#     elif item > slargest:
+#         slargest = item
+
+# print(f"S-largest = {slargest}")
+
+#=================================================================================
+
+# def large (a, b):
+#     if a<b:
+#         return b
+#     elif b<a:
+#         return a
+#     else:
+#         return "Both are equal"
+# print(large(10,2))
+
+# def is_prime(a):
+#     count = 0
+#     if a<2:
+#         return False
+#     for i in range (2,int(a ** 0.5)+1):
+#         if a%i ==0:
+#             return False
+#     return True
+
+# print(is_prime(21))
 
 
+# def factorial (a):
+#     if a < 0:
+#         return "Negativer number is invalid"
+#     elif a == 0 :
+#         return 1
+#     else:
+#         return a*factorial(a-1)
+    
+# print("factorial of 5 is", factorial(5))
+# print("factorial of 5 is", factorial(-5))
 
 
+# def filter_list(original):
+#     filtered = []
+#     for item in original:
+#         if item % 2 == 0:
+#             filtered.append(item)
+#     return filtered
+
+# main_list = [1,2,3,4,5,6,7,8,9,10]
+
+# print("Filtered list is ", filter_list(main_list))
 
 
+# try_dict = {"a": 50, "b": 60}
+# try_dict["c"] = 40
+# total = 0
+# for name, values in try_dict.items():
+#     print(name, ":", values, "\n")
+#     total += values
+
+# print (f"Average grade :{total/len(try_dict)}" )
+# highest_std = max(try_dict, key = try_dict.get)
+# print("Highest grade= ",highest_std, "with ", try_dict[highest_std] )
 
 
+input_var = input("Enter text")
 
+input_var = input_var.split()
+word_count = {}
 
+for item in input_var:
+    if item in word_count:
+        word_count[item] +=1
+    else:
+        word_count[item] = 1
 
-
-
+for item, count in word_count.items():
+    print(item, ":", count )
 
 
 
